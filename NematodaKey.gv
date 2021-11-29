@@ -1,0 +1,75 @@
+// FOO
+digraph "Nematoda Key" {
+	graph [rankdir=LR]
+	001 [label="Phylum
+Nematoda" fillcolor=red style=filled]
+	"Class
+Chromadorea" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	"Class
+Enoplea" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	001 -> Amphids
+	001 -> Cuticle
+	001 -> Phasmids
+	001 -> Esophagus
+	001 -> "Excretory
+System"
+	001 -> Females
+	001 -> "Caudal
+Alae"
+	001 -> Males
+	Amphids -> "Class
+Chromadorea" [label="Labial
+post-labial
+pore-like
+slit-like
+elaborate coils
+spirals"]
+	Cuticle -> "Class
+Chromadorea" [label="annulated
+ornamented with
+projections and setae."]
+	Phasmids -> "Class
+Chromadorea" [label="Distinct
+or indistinct
+posterior"]
+	Esophagus -> "Class
+Chromadorea" [label="Divided into bulbs
+3 to 5 esophageal glands"]
+	"Excretory
+System" -> "Class
+Chromadorea" [label="Glandular
+or tubular."]
+	Females -> "Class
+Chromadorea" [label="One or
+ two ovaries."]
+	"Caudal
+Alae" -> "Class
+Chromadorea" [label="Present or
+absent"]
+	Amphids -> "Class
+Enoplea" [label="Pocket like
+not spiral
+post-labial"]
+	Cuticle -> "Class
+Enoplea" [label="Smooth or
+finely striated"]
+	Phasmids -> "Class
+Enoplea" [label="Present or
+absent"]
+	Esophagus -> "Class
+Enoplea" [label="Cylindrical or bottle-shaped
+3 to 5 esophageal glands
+stichosome
+or trophosome"]
+	"Excretory
+System" -> "Class
+Enoplea" [label="Simple non-tubular
+Single cell"]
+	Females -> "Class
+Enoplea" [label="Two ovaries"]
+	Males -> "Class
+Enoplea" [label="Two testes."]
+	"Caudal
+Alae" -> "Class
+Enoplea" [label=Rare]
+}
